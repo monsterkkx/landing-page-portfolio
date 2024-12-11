@@ -772,7 +772,7 @@ a {
     height: 100%;
     display: flex;
     align-items: space-between;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 1rem 1rem;
     font-family: var(--font-pequena);
 }
@@ -783,20 +783,20 @@ a {
     display: flex;
     flex-direction: row;
     align-items: space-between;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .line-container {
     display: flex;
-    align-items: space-between;
+    align-items: flex-start;
 }
 
 .line-container.center {
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .line-container.right {
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .container-free-your-mind span {
