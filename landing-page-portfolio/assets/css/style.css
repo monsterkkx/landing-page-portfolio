@@ -11,9 +11,9 @@
 :root {
     --font-grande: 'TT Hoves Pro Trial', sans-serif;
     --font-pequena: 'ClashGrotesk-Light', sans-serif;
-    --color-black: #000;
-    --color-gray1: #3d4143;
-    --color-gray2: #9c9d9d;
+    --color-black: #e2c3b4;
+    --color-gray1: #000000;
+    --color-gray2: #1f2020;
     --color-white: #f6f6f6;
     --color-destaque1: #e7fc00;
     --color-destaque2: #728e6f;
@@ -267,7 +267,7 @@ a {
 .container-inicio {
     width: 100%;
     height: 100%;
-    color: var(--color-white);
+    color: var(--color-gray2);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -288,7 +288,7 @@ a {
     font-size: clamp(1rem, 2.5vw + .8rem, 3rem);
     font-family: var(--font-pequena);
     font-weight: normal;
-    margin-left: 20px;
+    margin-left: 100px;
 }
 
 .destaque-inicio {
@@ -587,7 +587,7 @@ a {
     width: 100%;
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-white);
+    color: var(--color-gray2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -615,7 +615,7 @@ a {
 .box-skills {
     border: 1px solid hsla(0, 0%, 100%, 0.15);
     border-radius: 20px;
-    color: var(--color-white);
+    color: var(--color-gray2);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -691,7 +691,7 @@ a {
 }
 
 .titulo-servicos h1 {
-    color: var(--color-black);
+    color: var(--color-gray2);
     width: 50%;
     font-size: 8vw;
     font-weight: lighter;
@@ -771,8 +771,8 @@ a {
     width: 100vw;
     height: 100%;
     display: flex;
-    align-items: space-between;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     padding: 1rem 1rem;
     font-family: var(--font-pequena);
 }
@@ -782,21 +782,21 @@ a {
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: space-between;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
 }
 
 .line-container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .line-container.center {
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .line-container.right {
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 
 .container-free-your-mind span {
@@ -805,11 +805,11 @@ a {
 }
 
 .center span {
-    text-align: space-between;
+    text-align: center;
 }
 
 .right span {
-    text-align: space-between;
+    text-align: center;
 }
 
 .line {
@@ -1058,7 +1058,7 @@ a {
     height: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
+    margin-left: 5%;
     justify-content: left;
     gap: 1rem;
     padding: 2rem 0rem 2rem 0rem;
@@ -1077,17 +1077,17 @@ a {
 
 .form {
     height: 100%;
-    display: flex;
+    display: contents;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     gap: 1rem;
 }
 
 .form input {
     font-family: var(--font-pequena);
     width: 100%;
-    height: 30px;
+    height: 40px;
     border-radius: 30px;
     outline: none;
     border: 2px solid rgba(128, 128, 128, 0.5);
