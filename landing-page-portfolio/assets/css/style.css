@@ -288,7 +288,7 @@ a {
     font-size: clamp(1rem, 2.5vw + .8rem, 3rem);
     font-family: var(--font-pequena);
     font-weight: normal;
-    margin-left: 60px;
+    margin-left: 20px;
 }
 
 .destaque-inicio {
