@@ -38,7 +38,7 @@
     .imagem-sobre {
         display: block;
         margin: 0 auto; 
-        position: relative;
+        position: sticky;
         top: -20px;
         
     }
