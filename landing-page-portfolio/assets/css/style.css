@@ -788,7 +788,7 @@ a {
 
 .line-container {
     display: flex;
-    align-items: center;
+    align-items: space-between;
 }
 
 .line-container.center {
@@ -805,11 +805,11 @@ a {
 }
 
 .center span {
-    text-align: center;
+    text-align: left;
 }
 
 .right span {
-    text-align: center;
+    text-align: left;
 }
 
 .line {
