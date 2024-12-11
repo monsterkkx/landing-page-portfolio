@@ -36,7 +36,11 @@
     }
 
     .imagem-sobre {
-        justify-content: center;
+        display: block;
+        margin: 0 auto; 
+        position: relative;
+        top: -20px;
+        
     }
 
     .complemento-sobre {
