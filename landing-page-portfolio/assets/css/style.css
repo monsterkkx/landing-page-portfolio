@@ -805,11 +805,11 @@ a {
 }
 
 .center span {
-    text-align: left;
+    text-align: space-between;
 }
 
 .right span {
-    text-align: left;
+    text-align: space-between;
 }
 
 .line {
