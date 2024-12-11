@@ -792,7 +792,7 @@ a {
 }
 
 .line-container.center {
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .line-container.right {
